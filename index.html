@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Gestión de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="taskName" placeholder="Nombre de la tarea">
+        <input type="text" id="taskDescription" placeholder="Descripción de la tarea">
+        <input type="date" id="taskDate">
+        <button id="addTask">Añadir Tarea</button>
+        <div id="errorMessage" class="error-message"></div>
+        <div id="taskList">
+            <!-- Aquí se añadirán las tareas -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
